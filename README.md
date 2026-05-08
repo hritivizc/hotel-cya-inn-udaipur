@@ -1,6 +1,6 @@
-# Hotel CYA INN (Udaipur) — QR Landing Page
+# Hotel CYA INN (Sikar) — QR Landing Page
 
-This repository hosts a single-page QR landing website for **Hotel CYA INN, Udaipur (Rajasthan)**.
+This repository hosts a single-page QR landing website for **Hotel CYA INN, Sikar (Rajasthan)**.
 
 ## Live site (GitHub Pages)
 
