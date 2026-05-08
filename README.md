@@ -4,7 +4,7 @@ This repository hosts a single-page QR landing website for **Hotel CYA INN, Sika
 
 ## Live site (GitHub Pages)
 
-- https://hritivizc.github.io/hotel-cya-inn-udaipur/
+- https://hritivizc.github.io/hotel-cya-inn-sikar/
 
 ## What this page does
 
