@@ -24,7 +24,7 @@ This repository hosts a single-page QR landing website for **Hotel CYA INN, Sika
 This template includes placeholders that you should replace in `index.html`:
 
 - WhatsApp invite link: `https://chat.whatsapp.com/XXXXXXXXXXXXXXXXXXXX`
-- Google Apps Script endpoint: `SCRIPT_URL` (currently `PASTE_YOUR_APPS_SCRIPT_URL_HERE`)
+- Google Apps Script endpoint: `SCRIPT_URL` (configured)
 
 ### Google Sheet setup
 
