@@ -26,6 +26,10 @@ This template includes placeholders that you should replace in `index.html`:
 - WhatsApp invite link: `https://chat.whatsapp.com/XXXXXXXXXXXXXXXXXXXX`
 - Google Apps Script endpoint: `SCRIPT_URL` (currently `PASTE_YOUR_APPS_SCRIPT_URL_HERE`)
 
+### Google Sheet setup
+
+Use `apps-script/Code.gs` and `apps-script/README.md` to connect this site to a Google Sheet and deploy the Apps Script Web App.
+
 ## Local preview
 
 ```bash
