@@ -276,8 +276,10 @@
   // APPS SCRIPT URL — Replace with your deployed Web App URL
   // Deploy → New deployment → Web App → Execute as Me → Anyone
   // ═══════════════════════════════════════════════════════
-  const SCRIPT_URL = 'PASTE_YOUR_APPS_SCRIPT_URL_HERE';
-  // e.g. 'https://script.google.com/macros/s/XXXXXXXXXXXXXXXXXX/exec'
+	  const SCRIPT_URL = 'PASTE_YOUR_APPS_SCRIPT_URL_HERE';
+	  // e.g. 'https://script.google.com/macros/s/XXXXXXXXXXXXXXXXXX/exec'
+	  const INSTITUTE = 'Hotel CYA INN';
+	  const SOURCE = 'hotel-cya-inn';
 
   let instaChecked = false;
   let googleChecked = false;
@@ -288,7 +290,12 @@
     if (!name || !phone) { alert('Please enter your name and phone number.'); return; }
 
     // Image pixel method — CORS-safe, no fetch required
-    var url = SCRIPT_URL + '?name=' + encodeURIComponent(name) + '&phone=' + encodeURIComponent(phone);
+	    var url =
+	      SCRIPT_URL +
+	      '?name=' + encodeURIComponent(name) +
+	      '&phone=' + encodeURIComponent(phone) +
+	      '&institute=' + encodeURIComponent(INSTITUTE) +
+	      '&source=' + encodeURIComponent(SOURCE);
     var img = new Image();
     img.src = url;
 
